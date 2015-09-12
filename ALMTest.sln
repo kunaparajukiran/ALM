@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ALMTest", "ALMTest\ALMTest.csproj", "{ACC0662F-8888-47DD-98AC-26472C995B0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ALMTest.Tests", "ALMTest.Tests\ALMTest.Tests.csproj", "{BFCAC55D-B7D3-4498-A440-A67B19C40DAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACC0662F-8888-47DD-98AC-26472C995B0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACC0662F-8888-47DD-98AC-26472C995B0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACC0662F-8888-47DD-98AC-26472C995B0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACC0662F-8888-47DD-98AC-26472C995B0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFCAC55D-B7D3-4498-A440-A67B19C40DAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFCAC55D-B7D3-4498-A440-A67B19C40DAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFCAC55D-B7D3-4498-A440-A67B19C40DAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFCAC55D-B7D3-4498-A440-A67B19C40DAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
