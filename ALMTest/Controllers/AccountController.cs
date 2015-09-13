@@ -16,11 +16,11 @@ namespace ALMTest.Controllers
     public class AccountController : Controller
     {
         private ApplicationSignInManager _signInManager;
-        private ApplicationUserManager _userManager;
+        private ApplicationUserManager _userManager;     
 
         public AccountController()
         {
-        }
+        }                      
 
         public AccountController(ApplicationUserManager userManager, ApplicationSignInManager signInManager )
         {
@@ -30,8 +30,9 @@ namespace ALMTest.Controllers
 
         public ApplicationSignInManager SignInManager
         {
-            get
+            get 
             {
+
                 return _signInManager ?? HttpContext.GetOwinContext().Get<ApplicationSignInManager>();
             }
             private set 
